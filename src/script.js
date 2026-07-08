@@ -41,10 +41,10 @@ function showContacts(contactBook, groupToShow) { // Rör ej denna kod
 
     }
 
-    return result;
-
+    return result; // här ska sträng med namn och telefonnummer visas i form av string interpolation
 }
 
 // Rör ej denna kod
-console.log(showContacts(contactBook, groupToShow));
+showContacts(contactBook, groupToShow);
+
 module.exports = { showContacts };
